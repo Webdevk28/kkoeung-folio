@@ -3,6 +3,8 @@ import Logo from "../assets/03.jpg"
 import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
+import { CgArrowLongRight } from "react-icons/cg";
+import { CgArrowLongLeft } from "react-icons/cg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -37,7 +39,7 @@ const Leftside = () => {
     return (
         <>
             <section className='l-side h-full rounded-lg'>
-                <div className="md:border-b border-yellow-500/20 py-8">
+                <div className="py-8">
                     <div className='absolute top-5 right-5 md:top-2 md:right-2'><Darkmode /></div>
 
                     <div className="relative flex justify-center w-48 m-auto">
@@ -59,11 +61,13 @@ const Leftside = () => {
                         <div className='hover:text-yellow-400 hover:scale-125'> <a href="https://kkoeung-folio.vercel.app/"><FaGlobe /></a> </div>
                     </div>
                 </div>
-
+                <p className='hidden md:block h-[2px] mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent' />
                 <div data-aos="zoom-in-down" className='hidden md:block mt-5'><Progress /></div>
-
-                <div className='flex justify-center items-center p-4'>
+                <p className='hidden md:block h-[2px] w-1/2 mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent mt-3' />
+                <div className='flex justify-center items-center pb-4 md:pb-0 mt-0 md:mt-5'>
+                    <div className='text-2xl text-yellow-600 px-3'><CgArrowLongRight /></div>
                     <Link to="/Contact" className='px-6 py-1.5 bg-yellow-400 rounded-lg text-sm hover:text-white hover:bg-yellow-500 duration-300 hover:scale-x-110'>Resume</Link>
+                    <div className='text-2xl text-yellow-600 px-3'><CgArrowLongLeft /></div>
                 </div>
             </section>
         </>
