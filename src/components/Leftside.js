@@ -52,7 +52,7 @@ const Leftside = () => {
                     </div>
 
                     <div className='flex gap-3 justify-center mt-4 text-[16px] *:duration-300'>
-                        <div className='hover:text-yellow-400 hover:scale-125'><a href="#"><FaGithub /></a> </div>
+                        <div className='hover:text-yellow-400 hover:scale-125'><a href="https://github.com/Webdevk28"><FaGithub /></a> </div>
                         <div className='hover:text-yellow-400 hover:scale-125'><a href="https://t.me/koeung28"><FaTelegram /></a></div>
                         <div className='hover:text-yellow-400 hover:scale-125'> <a href="https://kkoeung-folio.vercel.app/"><FaGlobe /></a> </div>
                     </div>
