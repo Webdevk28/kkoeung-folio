@@ -1,0 +1,37 @@
+Tạo cho tôi một câu chuyện ngắn để làm video hoạt hình cho trẻ em khoảng 5 tuổi. 
+Câu chuyện về cuộc phiêu lưu trong rừng sâu của thỏ nâu và sóc đen.
+ Hãy chia thành các cảnh và gợi ý 3 prompt để tôi tạo 3 ảnh minh họa cho từng phân cảnh của câu chuyện
+
+
+Tạo cho tôi một câu chuyện ngắn để làm video hoạt hình cho trẻ em khoảng 5 tuổi. 
+viết lệnh prompt tạo video thỏ và rùa đang thi đấu chạy trong rừng, tiếng trung quốc, tạo 5 khung cảnh khác nhau, 5 lệnh khác nhau
+
+
+viết 1 kich bản youtube kể chuyện rùa và thỏ cho 5 khung cảnh trên tiếng việt, ngày xưa ngày xưa
+
+xóa các thành phần giữ lại lời thoại của người kể chuyện thôi
+
+Create 5 image action with 5 different description.  3d cartoon, Pixar style. 
+
+1. A hare and a tortoise met in the forest. The hare hopped briskly while the tortoise crawled slowly. They decide the race to see who can reach the finish line faster.
+1. ទន្សាយ និងអណ្តើកបានជួបគ្នានៅក្នុងព្រៃ ពួកគេបបួលគ្នារត់​ប្រណាំង​ដើម្បី​មើល​ថា​អ្នក​ណា​អាច​​ដល់គោលដៅ​លឿន​ជាង។
+
+2 .The game begins! The hare ran forward quickly, leaving the tortoise crawling slowly behind. The rabbit was confident that he would win.
+2.ហ្គេមចាប់ផ្តើម! ទន្សាយ​រត់​ទៅ​មុខ​យ៉ាង​លឿន ដោយ​ទុក​សត្វ​អណ្តើក​វារ​យឺតៗ​ពី​ក្រោយ។ ទន្សាយមានទំនុកចិត្តថាគាត់នឹងឈ្នះ។
+
+3. After running for a while, the hare felt very tired, so he stopped under a tree on the roadside and took a nap, thinking that the tortoise was still behind him and he had plenty of time.
+3. បន្ទាប់ពីរត់បានមួយសន្ទុះ សត្វទន្សាយមានអារម្មណ៍នឿយហត់ណាស់ គាត់បានឈប់នៅក្រោមដើមឈើមួយដើមក្បែរផ្លូវ ហើយងងុយដេកដោយគិតថា សត្វអណ្តើកនៅខាងក្រោយគាត់ ហើយគាត់មានពេលច្រើន
+
+4. The turtle crawled forward step by step without stopping. Although it is slow, it always persists and keeps moving towards the end.
+4. អណ្តើកវារទៅមុខមួយជំហានដោយមិនឈប់។ ទោះបីជាវាយឺតក៏ដោយ វាតែងតែបន្ត និងបន្តឆ្ពោះទៅរកទីបញ្ចប់។
+
+5. Finally, the tortoise reached the finish line, and the hare woke up and found that he had lost the race. The rabbit regretted his laziness and pride.
+5. ទីបំផុត សត្វអណ្តើកបានទៅដល់ទីបញ្ចប់ ហើយសត្វទន្សាយភ្ញាក់ឡើង ឃើញថាវាចាញ់ការប្រណាំងហើយ។ ទន្សាយសោកស្ដាយចំពោះភាពខ្ជិលច្រអូស និងមោទនភាពរបស់ខ្លួន។
+
+
+
+ទន្សាយ និងអណ្តើកបានជួបគ្នាក្នុងព្រៃជ្រៅ ពួកគេភ្នាល់គ្នារត់ប្រណាំងអ្នកណារត់លឿនជាងគេ។
+ទន្សាយ​រត់​ទៅ​មុខ​យ៉ាង​លឿន ដោយ​ទុក​សត្វ​អណ្តើក​វារ​យឺតៗ​ពី​ក្រោយ។ ទន្សាយមានទំនុកចិត្តថាគាត់នឹងឈ្នះ។
+បន្ទាប់ពីរត់បានមួយសន្ទុះ សត្វទន្សាយមានអារម្មណ៍នឿយហត់រួចដេកនៅក្រោមដើមឈើមួយ ។
+ចំណែកអណ្តើកវារទៅមុខមួយជំហានដោយមិនឈប់ ទោះបីជាវាយឺតក៏ដោយ
+ទីបំផុត សត្វអណ្តើកបានទៅដល់គោលដៅមុនគេ ហើយសត្វទន្សាយបានចាញ់ និងសោកស្ដាយចំពោះភាពខ្ជិលច្រអូស និងមោទនភាពរបស់ខ្លួន។

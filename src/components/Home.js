@@ -1,0 +1,39 @@
+import React from "react";
+import Leftside from "./Leftside";
+import Top from "./Topbanner";
+import About from "./About";
+import Resume from "./Resume";
+import Portfolio from "./Portfolio";
+import Service from "./Service";
+import Progress from "./Progress";
+import Swiper from "./Swiper";
+import Footer from "./Footer";
+
+const Home = () => {
+
+    return (
+        <>
+            <div class="relative max-w-7xl m-auto overflow-hidden z-40 p-3">
+                <div class="left-side md:h-screen md:fixed w-full md:w-[300px] float-left">
+                   <Leftside />
+                </div>
+
+                <div class="right-side w-full md:w-[calc(100%-300px)] md:px-4 sm:mt-0 float-right">
+                    <div className="">
+                        <div className="hidden md:block"><Top /></div>
+                        <About />
+                        <Resume />
+                        <Service />
+                        <div className="md:hidden"><Progress /></div>
+                        <Portfolio />
+                        <Swiper />
+                        <Footer />
+                    </div>
+                </div>
+            </div>
+
+        </>
+    )
+}
+
+export default Home

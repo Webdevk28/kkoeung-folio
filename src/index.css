@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Kdam+Thmor+Pro&family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+:root {
+   --bg-white:  #fff;
+   --white: #fff;
+   --dark: #212121;
+   --seconde-white: #f5ede9;
+   --third-white: #f8f8f8;
+   --second-dark: #282828;
+   --third-dark: #212529;
+   --gray-dark: #343a40;
+   --secondary: #6c757d;
+   --span: #facc15;
+   --yellow: #eab308;
+   --text-color: #1f2937;
+}
+
+
+body{
+   /* font-family: "Space Grotesk", sans-serif; */
+   background-color: var(--bg-white);
+   color: var(--text-color);
+   font-family: "Pathway Extreme", sans-serif;
+   font-size: 15px;
+}
+
+.header {
+   background-color: var(--second-dark);
+}
+
+.dark-theme{
+   background-color: var(--dark);
+   color: var(--white);
+}
+
+.dark-theme .l-side{
+   background-color: var(--second-dark);
+   color: var(--white);
+}
+
+.dark-theme .l-span{
+   color: var(--span);
+}
+
+.l-span {
+   color: var(--yellow)
+}
+
+.l-side{
+   background-color: var(--seconde-white);
+}
+
+.dark-theme .r-side{
+   background-color: var(--second-dark);
+}
+
+.r-side{
+   background-color: var(--third-white);
+   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.dark-theme .r-side-item{
+   background-color: var(--third-dark);
+}
+
+.r-side-item {
+   background-color: var(--white);
+}
+
+.active-link{
+   color: #ecf39e;
+}
+
+.activeII{
+   color: #ecf39e;
+}
+
+.filter-item.active {
+   color: var(--span);
+}
+
+
+
+ .gallery-item.hide {
+   display: none;
+ }
+ 
+ .gallery-item.show {
+   display: block;
+   animation: fadeIn 0.8s ease;
+ }
+
+ .menu { 
+   opacity: 0;
+   padding: 0.3em;
+   animation: fade-in 0.3s ease-in forwards;
+ }
+ .menu-item:nth-child(1) { animation-delay: 0.2s; }
+ .menu-item:nth-child(2) { animation-delay: 0.6s; }
+ .menu-item:nth-child(3) { animation-delay: 0.8s; }
+ .menu-item:nth-child(4) { animation-delay: 1s; }
+ .menu-item:nth-child(5) { animation-delay: 1.2s; }
+ .menu-item:nth-child(6) { animation-delay: 1.4s; }
+ .menu-item:nth-child(7) { animation-delay: 1.6s; }
+
+@keyframes fade-in {
+   from {
+      transform: translateX(-2em);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateX(0);
+   }
+}
+ 
+
+
+/* ========================================================== */
+
+.progress {
+   background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 5px 0;
+	height: 10px;
+	/* width: 250px; */
+}
+
+.progress-done {
+   background: linear-gradient(to left, #F2709C, #f8d238);
+	border-radius: 20px;
+   font-size: 10px;
+   padding: 5px;
+	display: flex;
+   gap: 10px;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+	/* box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C; */
+}
+
+
+/* ================ Skill =================== */
+
+ 
