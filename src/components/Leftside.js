@@ -56,7 +56,7 @@ const Leftside = () => {
 
                     <div className='flex gap-3 justify-center mt-4 text-[16px] *:duration-300'>
                         <div className='hover:text-yellow-400 hover:scale-125'><a href="https://github.com/Webdevk28"><FaGithub /></a> </div>
-                        <div className='hover:text-yellow-400 hover:scale-125'><a href="https://t.me/koeung28"><FaTelegram /></a></div>
+                        <div className='hover:text-yellow-400 hover:scale-125'><a href="https://t.me/kkoeung27"><FaTelegram /></a></div>
                         <div className='hover:text-yellow-400 hover:scale-125'> <a href="https://kkoeung-folio.vercel.app/"><FaGlobe /></a> </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Leftside = () => {
                 <p className='hidden md:block h-[2px] w-1/2 mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent mt-3' />
                 <div className='flex justify-center items-center pb-4 md:pb-0 mt-0 md:mt-5'>
                     {/* <div className='text-2xl text-yellow-600 px-3'><CgArrowLongRight /></div> */}
-                    <Link to="/Contact" className='px-6 py-1.5 bg-yellow-400 rounded-lg text-sm hover:text-white hover:bg-yellow-500 duration-300 hover:scale-x-110'>Resume</Link>
+                    <Link to="/Contact" className='px-4 py-1.5 bg-yellow-400 rounded-lg text-sm hover:text-white hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
                     {/* <div className='text-2xl text-yellow-600 px-3'><CgArrowLongLeft /></div> */}
                 </div>
             </section>

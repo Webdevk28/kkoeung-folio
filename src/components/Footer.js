@@ -26,10 +26,10 @@ const Footer = () => {
                         <BiLogoGmail className="text-yellow-500 text-lg" /> 
                         <b>E-MAIL:</b> khonkoeung27@gmail.com
                     </div>
-                    
+
                     <div className="flex gap-2 sm:items-center">
                         <FaTelegramPlane className="text-yellow-500 text-lg" /> 
-                        <b>TELEGRAM:</b> <a href="https://t.me/koeung28" className="hover:text-blue-500">https://t.me/kkoeung27</a>
+                        <b>TELEGRAM:</b> <a href="https://t.me/kkoeung27" className="hover:text-blue-500">https://t.me/kkoeung27</a>
                     </div>
                 </div>
             </div>
