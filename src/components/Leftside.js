@@ -3,8 +3,7 @@ import Logo from "../assets/03.jpg"
 import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
-import { CgArrowLongRight } from "react-icons/cg";
-import { CgArrowLongLeft } from "react-icons/cg";
+import { LiaHandPointRight } from "react-icons/lia";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,7 +12,9 @@ import Darkmode from './Darkmode';
 import Progress from './Progress';
 import { Link } from 'react-router-dom';
 
+
 const Leftside = () => {
+
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -33,7 +34,6 @@ const Leftside = () => {
         };
 
     }, []);
-
 
 
     return (
@@ -63,10 +63,8 @@ const Leftside = () => {
                 <p className='hidden md:block h-[2px] mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent' />
                 <div data-aos="zoom-in-down" className='hidden md:block mt-5'><Progress /></div>
                 <p className='hidden md:block h-[2px] w-1/2 mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent mt-3' />
-                <div className='flex justify-center items-center pb-4 md:pb-0 mt-0 md:mt-5'>
-                    {/* <div className='text-2xl text-yellow-600 px-3'><CgArrowLongRight /></div> */}
+                <div className='flex justify-center items-center p-4'>
                     <Link to="/Contact" className='px-4 py-1.5 bg-yellow-400 rounded-lg text-sm hover:text-white hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
-                    {/* <div className='text-2xl text-yellow-600 px-3'><CgArrowLongLeft /></div> */}
                 </div>
             </section>
         </>

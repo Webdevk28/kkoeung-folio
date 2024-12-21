@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Leftside from "./Leftside";
 import Top from "./Topbanner";
 import About from "./About";
@@ -10,6 +10,13 @@ import Swiper from "./Swiper";
 import Footer from "./Footer";
 
 const Home = () => {
+
+    useEffect(() => {
+        const meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, initial-scale=1';
+        document.head.appendChild(meta);
+    }, []);
 
     return (
         <>
