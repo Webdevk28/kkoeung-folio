@@ -49,7 +49,6 @@ const Leftside = () => {
                             <p className="hover:w-full text-[12px] tracking-wider">AVAILABLE FOR HIRE</p> 
                         </div>
                     </div>
-                    
                     <span className="text-lg mt-3 text-center font-semibold block">KHON KOEUNG</span>
                     <div className='l-span text-sm mt-2 tracking-wide text-center text-yellow-400'>
                         <span ref={typedRef}></span>
@@ -65,9 +64,9 @@ const Leftside = () => {
                 <div data-aos="zoom-in-down" className='hidden md:block mt-5'><Progress /></div>
                 <p className='hidden md:block h-[2px] w-1/2 mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent mt-3' />
                 <div className='flex justify-center items-center pb-4 md:pb-0 mt-0 md:mt-5'>
-                    <div className='text-2xl text-yellow-600 px-3'><CgArrowLongRight /></div>
+                    {/* <div className='text-2xl text-yellow-600 px-3'><CgArrowLongRight /></div> */}
                     <Link to="/Contact" className='px-6 py-1.5 bg-yellow-400 rounded-lg text-sm hover:text-white hover:bg-yellow-500 duration-300 hover:scale-x-110'>Resume</Link>
-                    <div className='text-2xl text-yellow-600 px-3'><CgArrowLongLeft /></div>
+                    {/* <div className='text-2xl text-yellow-600 px-3'><CgArrowLongLeft /></div> */}
                 </div>
             </section>
         </>

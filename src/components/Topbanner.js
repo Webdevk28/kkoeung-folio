@@ -12,12 +12,10 @@ const Top = () => {
                             <h1 className="text-3xl font-semibold inline-block text-gray-100"> Khon <span className="l-span">Koeung</span></h1>
                             <span className="l-span text-[13px]">I'm Web Developer</span>
                             <span className="text-gray-100">I'm Khon Koeung. I am proficient in frontend web development & ui design. I have been working with one year experience in this field.</span>
-                            <div><button className="text-gray-100 px-4 py-1 bg-yellow-500 rounded text-sm">Download</button></div>
+                            {/* <div><button className="text-gray-100 px-4 py-1 bg-yellow-500 rounded text-sm">Download</button></div> */}
                         </div>
                     </div>
-                    <div className="">
-                        <div><img src={Avatar} /></div>
-                    </div>
+                    <div><img src={Avatar} /></div>
                 </div>
             </section>
         </>

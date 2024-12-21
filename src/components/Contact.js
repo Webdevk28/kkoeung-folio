@@ -15,10 +15,9 @@ const Contact = () => {
         document.head.appendChild(meta);
     
         return () => {
-          // Cleanup if needed
           document.head.removeChild(meta);
         };
-      }, []);
+    }, []);
 
 
   return (
@@ -171,7 +170,7 @@ const Contact = () => {
                 {/* <!-- right side --> */}
                 <div className="right-side bg-white w-[428px] opacity-100 relative">
                     <Link to="/" className="flex justify-center items-center z-50 absolute top-0 left-2">
-                        <HiHome className="text-4xl md:text-3xl p-1 duration-300 text-yellow-600" name="close-circle" />
+                        <HiHome className="text-3xl p-1 duration-300 text-yellow-600" name="close-circle" />
                     </Link>
                     <div className="p-4 text-black tracking-wider">
                         {/* <!-- About --> */}

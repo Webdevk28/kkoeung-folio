@@ -35,12 +35,12 @@ function About () {
                 </div>
             </div>
 
-            <div className="mt-10 grid sm:grid-cols-2 md:grid-cols-4 text-[15px] gap-4 *:flex *:items-center *:justify-center *:gap-2 *:px-1 *:py-4 *:rounded-lg">
-                <div data-aos="fade-right" data-aos-duration="1500" className="r-side-item border border-slate-500/10"><div><FaCalendarAlt className="text-lg text-yellow-400"/></div> 4800 Working Hours</div>
-                <div data-aos="fade-right" data-aos-duration="1000" className="r-side-item border border-slate-500/10"><div><FaGlobe className="text-lg text-yellow-400"/></div> 03 Total Projects</div>
+            <div className="mt-10 grid sm:grid-cols-2 md:grid-cols-4 text-[15px] gap-4 *:flex *:items-center *:justify-center *:gap-2 *:px-1 *:py-4 *:rounded-lg *:border *:border-slate-500/10">
+                <div data-aos="fade-right" data-aos-duration="1500" className="r-side-item"><div><FaCalendarAlt className="text-lg text-yellow-400"/></div> 4800 Working Hours</div>
+                <div data-aos="fade-right" data-aos-duration="1000" className="r-side-item"><div><FaGlobe className="text-lg text-yellow-400"/></div> 03 Total Projects</div>
 
-                <div data-aos="fade-left" data-aos-duration="1000" className="r-side-item border border-slate-500/10"><div><MdLightMode className="text-lg text-yellow-400"/></div> 1+ Years Journey</div>
-                <div data-aos="fade-left" data-aos-duration="1500" className="r-side-item border border-slate-500/10"><div><BsEmojiSunglassesFill className="text-lg text-yellow-400"/></div>03 Total Client</div>
+                <div data-aos="fade-left" data-aos-duration="1000" className="r-side-item"><div><MdLightMode className="text-lg text-yellow-400"/></div> 1+ Years Journey</div>
+                <div data-aos="fade-left" data-aos-duration="1500" className="r-side-item"><div><BsEmojiSunglassesFill className="text-lg text-yellow-400"/></div>03 Total Client</div>
             </div>
         </section>
     )
