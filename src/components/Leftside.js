@@ -23,7 +23,7 @@ const Leftside = () => {
     const typedRef = useRef(null);
     useEffect(() => {
         const typed = new Typed(typedRef.current, {
-            strings: ["Web Developer", "Web Designer", "Graphic Designer"],
+            strings: ["Web Developer", "IT Supporter", "Web Designer", "Graphic Designer"],
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
@@ -61,10 +61,15 @@ const Leftside = () => {
                     </div>
                 </div>
                 <p className='hidden md:block h-[2px] mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent' />
+
+                {/* Progress Myskills */}
                 <div data-aos="zoom-in-down" className='hidden md:block mt-5'><Progress /></div>
+
                 <p className='hidden md:block h-[2px] w-1/2 mx-auto bg-gradient-to-l from-transparent via-yellow-500 to-transparent mt-3' />
+
+                {/* View Resume */}
                 <div className='flex justify-center items-center p-4'>
-                    <Link to="/Contact" className='px-4 py-1.5 bg-yellow-400 rounded-lg text-sm hover:text-white hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
+                    <Link to="/Cv" className='px-4 py-1.5 bg-yellow-400 rounded-lg text-sm text-gray-800 hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
                 </div>
             </section>
         </>

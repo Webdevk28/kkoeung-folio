@@ -7,7 +7,7 @@ import { FaGlobe } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
-const Contact = () => {
+const Cv = () => {
     useEffect(() => {
         const meta = document.createElement('meta');
         meta.name = 'viewport';
@@ -61,75 +61,67 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
+
                         {/* <!-- skill --> */}
                         <div className="name text-[9px] mt-5">
                             <div className="relative flex justify-center text-[13px] text-center mt-4 font-[600] border-b border-gray-400 w-full">
                                 <span>SKILL</span>
                                 <div className="w-6 h-0.5 bg-yellow-500 absolute top-[18.5px]"></div>
                             </div>
-                            <div className="mt-4 *:flex *:gap-4 *:items-center *:mt-2">
-                                {/* <!-- html, css --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>HTML , CSS</span>
+                            <div className="mt-4 *:flex *:gap-2  *:mt-2">
+
+                                {/* <!-- Microsoft,Printer,Camera --> */}
+                                <div className='flex flex-col'>
+                                    <span>Microsoft Office, Printer, Camera</span>
+                                    <div className="w-6/12 bg-gray-900 h-1 rounded-full">
+                                        <div className="styled-html bg-yellow-500 h-1 rounded-full" style={{width: '70%'}}></div>
                                     </div>
+                                </div>
+
+                                {/* <!-- Hardware, Software, Internet --> */}
+                                <div className='flex flex-col'>
+                                    <span>Hardware, Software, Internet</span>
+                                    <div className="w-6/12 bg-gray-900 h-1 rounded-full">
+                                        <div className="styled-html bg-yellow-500 h-1 rounded-full" style={{width: '70%'}}></div>
+                                    </div>
+                                </div>
+
+                                {/* <!-- Word, Excel, Powerpoint --> */}
+                                <div className='flex flex-col'>
+                                    <span>Word, Excel, Powerpoint</span>
+                                    <div className="w-6/12 bg-gray-900 h-1 rounded-full">
+                                        <div className="styled-html bg-yellow-500 h-1 rounded-full" style={{width: '70%'}}></div>
+                                    </div>
+                                </div>
+
+                                {/* <!-- html, css Tailwind css --> */}
+                                <div className="flex flex-col">
+                                    <span>HTML, CSS, Tailwind css</span>
                                     <div className="w-6/12 bg-gray-900 h-1 rounded-full">
                                         <div className="styled-html bg-yellow-500 h-1 rounded-full" style={{width: '90%'}}></div>
                                     </div>
                                 </div>
-                                {/* <!-- tailwind --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>Tailwind css</span>
-                                    </div>
-                                    <div className="w-6/12 bg-gray-800 h-1 rounded-full">
-                                        <div className="styled-tailwind bg-yellow-500 h-1 rounded-full" style={{width: '90%'}}></div>
-                                    </div>
-                                </div>
-                                {/* <!-- js --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>Javascript</span>
-                                    </div>
+
+                                {/* <!-- Javascript, React js --> */}
+                                <div className="flex flex-col">
+                                    <span>Javascript, React Js</span>
                                     <div className="w-6/12 bg-gray-800 h-1 rounded-full">
                                         <div className="styled-js bg-yellow-500 h-1 rounded-full" style={{width: '50%'}}></div>
                                     </div>
                                 </div>
-                                {/* <!-- ract js --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>React Js</span>
-                                    </div>
-                                    <div className="w-6/12 bg-gray-800 h-1 rounded-full">
-                                        <div className="styled-react bg-yellow-500 h-1 rounded-full" style={{width: '50%'}}></div>
-                                    </div>
-                                </div>
+
                                 {/* <!-- Git --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>Git</span>
-                                    </div>
+                                <div className="flex flex-col">
+                                    <span>Git</span>
                                     <div className="w-6/12 bg-gray-800 h-1 rounded-full">
                                         <div className="styled-react bg-yellow-500 h-1 rounded-full" style={{width: '70%'}}></div>
                                     </div>
                                 </div>
-                                {/* <!-- Illustrator --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>Illustrator</span>
-                                    </div>
+                                {/* <!-- Adobe AI & PS --> */}
+                                <div className="flex flex-col">
+                                    <span>Adobe AI & PS</span>
                                     <div className="w-6/12 bg-gray-800 h-1 rounded-full">
                                         <div className="styled-il bg-yellow-500 h-1 rounded-full" style={{width: '50%'}}></div>
-                                    </div>
-                                </div>
-
-                                {/* <!-- Photoshop --> */}
-                                <div>
-                                    <div className="flex w-6/12">
-                                        <span>Photoshop</span>
-                                    </div>
-                                    <div className="w-6/12 bg-gray-800 h-1 rounded-full">
-                                        <div className="styled-ps bg-yellow-500 h-1 rounded-full" style={{width: '50%'}}></div>
                                     </div>
                                 </div>
                             </div>
@@ -189,6 +181,17 @@ const Contact = () => {
                                 <div className="w-5 h-0.5 bg-yellow-500 absolute top-[27px]"></div>
                             </div>
                             <div className="*:mt-3 *:grid *:grid-cols-12 *:gap-2">
+                                {/* <!-- RS Invesment --> */}
+                                <div>
+                                    <div className="col-span-4 *:block">
+                                        <span className="font-[600]">IT Supporter</span>
+                                        <span>2024 - 2025</span>
+                                    </div>
+                                    <div className="col-span-8 *:block">
+                                        <span className="font-[600]">RS Invesment</span>
+                                        <p className="text-justify">Actively support office, branch and collaborated with Client to support Company...</p>
+                                    </div>
+                                </div>
                                 {/* <!-- Phoenix Media --> */}
                                 <div>
                                     <div className="col-span-4 *:block">
@@ -277,4 +280,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Cv

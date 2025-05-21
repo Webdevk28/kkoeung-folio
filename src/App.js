@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-import Contact from './components/Contact';
+import Contact from './components/Cv';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element = {<Home />}></Route>
-        <Route path='/Contact' element = {<Contact />}></Route>
+        <Route path='/Cv' element = {<Contact />}></Route>
       </Routes> 
     </Router>
   );

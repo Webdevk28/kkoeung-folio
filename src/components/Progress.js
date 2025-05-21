@@ -3,14 +3,14 @@ import React, { useEffect, useState } from "react";
 const Progress = () => {
 
     const [progresses, setProgresses] = useState([
-        { done: 90, name: "HTML" },
-        { done: 90, name: "CSS" },
-        { done: 90, name: "Tailwind css"},
-        { done: 50, name: "Javascript"},
-        { done: 50, name: "React Js"},
-        { done: 70, name: "Git"},
-        { done: 50, name: "Illustrator"},
-        { done: 50, name: "Photoshop"},
+        { done: 70, name: "Microsoft Office, Printer, Camera" },
+        { done: 70, name: "Hardware, Software, Internet" },
+        { done: 70, name: "Word, Excel, Powerpoint" },
+        { done: 80, name: "HTML, CSS" },
+        { done: 80, name: "Tailwind css"},
+        { done: 50, name: "Javascript, React Js"},
+        { done: 50, name: "Git"},
+        { done: 50, name: "Adobe AI & PS"},
       ]);
     
       useEffect(() => {
@@ -30,16 +30,17 @@ const Progress = () => {
         <>
             <div className="p-4">
                 <span className="text-xl font-semibold">MY SKILLS</span>
-                {progresses.map((progress, index) => (
-                  <div>
-                      <span className="text-xs p-1 tracking-wide">{progress.name}</span>
-                      <div className="progress" key={index}>
-                          <div className="progress-done text-xs" style={progress.style}>
-                              <div>{progress.done}%</div>
-                          </div>
+                {progresses.map((progress) => (
+                  <div className="mt-2" key={progress.name}>
+                    <span className="text-xs p-1 tracking-wide">{progress.name}</span>
+                    <div className="progress">
+                      <div className="progress-done text-xs" style={progress.style}>
+                        <div>{progress.done}%</div>
                       </div>
+                    </div>
                   </div>
                 ))}
+
             </div>
         </>
     )

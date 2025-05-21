@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Leftside from "./Leftside";
 import Top from "./Topbanner";
+import Circle from "./Circle";
 import About from "./About";
 import Resume from "./Resume";
 import Portfolio from "./Portfolio";
@@ -8,6 +9,7 @@ import Service from "./Service";
 import Progress from "./Progress";
 import Swiper from "./Swiper";
 import Footer from "./Footer";
+import Popup from "./popup";
 
 const Home = () => {
 
@@ -27,6 +29,7 @@ const Home = () => {
 
                 <div class="right-side w-full md:w-[calc(100%-300px)] md:px-4 sm:mt-0 float-right">
                     <div className="">
+                        <Circle />
                         <div className="hidden md:block"><Top /></div>
                         <About />
                         <Resume />
@@ -34,6 +37,7 @@ const Home = () => {
                         <div className="md:hidden"><Progress /></div>
                         <Portfolio />
                         <Swiper />
+                        <Popup />
                         <Footer />
                     </div>
                 </div>

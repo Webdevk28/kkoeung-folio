@@ -37,7 +37,55 @@
   }
 }
 
+/* show popup */
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+  height: 80%;
+  animation: show 0.3s ease-out;
+}
+
+/* Optional animation */
+@keyframes show {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes hide {
+  to { transform: scale(0.8); opacity: 0; }
+}
 
 
 
 
+/* =========================================================== */
+
+
+
+.circle {
+  position: fixed;
+  z-index: 100;
+  border: solid 2px #000;
+  border-radius: 50%;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  opacity: 1;
+}
