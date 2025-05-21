@@ -37,7 +37,7 @@ const Home = () => {
                         <div className="md:hidden"><Progress /></div>
                         <Portfolio />
                         <Swiper />
-                        <Popup />
+                        {/* <Popup /> */}
                         <Footer />
                     </div>
                 </div>

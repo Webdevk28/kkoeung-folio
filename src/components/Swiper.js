@@ -14,27 +14,27 @@ import 'swiper/css/scrollbar';
 import '../App.css';
 import { IoClose } from "react-icons/io5";
 
-const illustrations = {
-  button1: {
-    heading: 'button 1',
-    button1: 'Cancel',
-    button2: 'Great!',
-  },
-  button2: {
-    heading: 'button 2',
-    button1: 'Close',
-    button2: 'Open Mail',
-  }
-};
+// const illustrations = {
+//   button1: {
+//     heading: 'button 1',
+//     button1: 'Cancel',
+//     button2: 'Great!',
+//   },
+//   button2: {
+//     heading: 'button 2',
+//     button1: 'Close',
+//     button2: 'Open Mail',
+//   }
+// };
 
 const Slider = () => {
   const [type, setType] = useState(null);
-  const data = illustrations[type];
+  // const data = illustrations[type];
 
 
   return (
     <>
-        {Object.keys(illustrations).map((key) => (
+        {/* {Object.keys(illustrations).map((key) => (
           <button key={key} onClick={() => setType(key)}>
             Show {key}
           </button>
@@ -53,7 +53,7 @@ const Slider = () => {
               </div>
             </div>
           </div>
-        )}
+        )} */}
 
 
         <section className="r-side mt-10 py-10 p-4">
