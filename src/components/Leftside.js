@@ -43,7 +43,7 @@ const Leftside = () => {
                     <div className='absolute top-5 right-5 md:top-2 md:right-2'><Darkmode /></div>
 
                     <div className="relative flex justify-center w-48 m-auto">
-                        <div className='overflow-hidden size-48 rounded-full border-2 border-yellow-500/80'><img src={Logo} alt="logo" className="w-full opacity-10" /></div>
+                        <div className='overflow-hidden size-48 rounded-full border-2 border-yellow-500/80'><img src={Logo} alt="logo" className="w-full opacity-100" /></div>
                         <span class="animate-ping absolute bottom-5 right-4 inline-flex size-5 rounded-full bg-sky-400 opacity-75"></span>
                         <div className="absolute bottom-5 right-4 rounded-full border-[2px] hover:border-[1px] border-slate-800 bg-yellow-400 size-5 hover:w-40 duration-500 overflow-hidden text-center *:hidden *:hover:block">
                             <p className="hover:w-full text-[12px] tracking-wider">AVAILABLE FOR HIRE</p> 

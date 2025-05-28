@@ -16,7 +16,7 @@ function About () {
         <section className="r-side mt-10 px-5 py-10">
            <div className="grid md:grid-cols-2 gap-5">
                 <div className="hidden md:block">
-                    <div data-aos="zoom-in" data-aos-duration="2000" ><img src={person} alt="person" className="opacity-10"/></div>
+                    <div data-aos="zoom-in" data-aos-duration="2000" ><img src={person} alt="person" className="opacity-90"/></div>
                 </div>
 
                 <div className="">
