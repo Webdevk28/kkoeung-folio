@@ -23,7 +23,7 @@ const Cv = () => {
   return (
     <section className="w-full overflow-hidden h-screen">
         <div className="flex justify-center items-center w-full h-full p-4">
-            <div className="cv-item flex border border-slate-300 w-[628px] m-auto h-[868px] text-[12px] shadow-xl overflow-hidden">
+            <div className="cv-item flex w-[628px] m-auto h-[868px] text-[12px] shadow-xl overflow-hidden">
                 {/* <!-- left side --> */}
                 <div className="left-side bg-[#414142] w-[200px] opacity-100">
                     <div className="p-2 mt-4 text-gray-100 tracking-wider">
@@ -80,7 +80,7 @@ const Cv = () => {
 
                                 {/* <!-- Hardware, Software, Internet --> */}
                                 <div className='flex flex-col'>
-                                    <span>Hardware, Software, Internet</span>
+                                    <span>Software, Internet</span>
                                     <div className="w-6/12 bg-gray-900 h-1 rounded-full">
                                         <div className="styled-html bg-yellow-500 h-1 rounded-full" style={{width: '70%'}}></div>
                                     </div>

@@ -43,7 +43,7 @@ const Leftside = () => {
                     <div className='absolute top-5 right-5 md:top-2 md:right-2'><Darkmode /></div>
 
                     <div className="relative flex justify-center w-48 m-auto">
-                        <div className='overflow-hidden size-48 rounded-full border-2 border-yellow-500/80'><img src={Logo} alt="logo" className="w-full opacity-100" /></div>
+                        <div className='overflow-hidden size-48 rounded-full border-2 border-yellow-500/80'><img src={Logo} alt="logo" className="w-full opacity-10" /></div>
                         <span class="animate-ping absolute bottom-5 right-4 inline-flex size-5 rounded-full bg-sky-400 opacity-75"></span>
                         <div className="absolute bottom-5 right-4 rounded-full border-[2px] hover:border-[1px] border-slate-800 bg-yellow-400 size-5 hover:w-40 duration-500 overflow-hidden text-center *:hidden *:hover:block">
                             <p className="hover:w-full text-[12px] tracking-wider">AVAILABLE FOR HIRE</p> 
@@ -69,7 +69,7 @@ const Leftside = () => {
 
                 {/* View Resume */}
                 <div className='flex justify-center items-center p-4'>
-                    <Link to="/Cv" className='px-4 py-1.5 bg-yellow-400 rounded-lg text-sm text-gray-800 hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
+                    <Link to="/Cv" className='px-6 py-1.5 font-semibold bg-yellow-400 rounded-full text-sm text-gray-800 hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
                 </div>
             </section>
         </>

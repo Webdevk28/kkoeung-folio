@@ -7,9 +7,8 @@ import Resume from "./Resume";
 import Portfolio from "./Portfolio";
 import Service from "./Service";
 import Progress from "./Progress";
-import Swiper from "./Swiper";
+import Slider from "./Slider"
 import Footer from "./Footer";
-import Popup from "./popup";
 
 const Home = () => {
 
@@ -36,8 +35,7 @@ const Home = () => {
                         <Service />
                         <div className="md:hidden"><Progress /></div>
                         <Portfolio />
-                        <Swiper />
-                        {/* <Popup /> */}
+                        <Slider />
                         <Footer />
                     </div>
                 </div>

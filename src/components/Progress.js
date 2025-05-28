@@ -4,7 +4,7 @@ const Progress = () => {
 
     const [progresses, setProgresses] = useState([
         { done: 70, name: "Microsoft Office, Printer, Camera" },
-        { done: 70, name: "Hardware, Software, Internet" },
+        { done: 70, name: "Software, Internet" },
         { done: 70, name: "Word, Excel, Powerpoint" },
         { done: 80, name: "HTML, CSS" },
         { done: 80, name: "Tailwind css"},
@@ -32,7 +32,7 @@ const Progress = () => {
                 <span className="text-xl font-semibold">MY SKILLS</span>
                 {progresses.map((progress) => (
                   <div className="mt-2" key={progress.name}>
-                    <span className="text-xs p-1 tracking-wide">{progress.name}</span>
+                    <span className="text-sm p-1 tracking-wide">{progress.name}</span>
                     <div className="progress">
                       <div className="progress-done text-xs" style={progress.style}>
                         <div>{progress.done}%</div>

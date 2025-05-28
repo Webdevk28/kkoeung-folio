@@ -1,10 +1,12 @@
-import React from 'react'
+
 import { IoLocationSharp } from "react-icons/io5";
 import { MdCall } from "react-icons/md";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
+
 const Footer = () => {
+
 
     return (
         <>
@@ -33,6 +35,7 @@ const Footer = () => {
                             <FaTelegramPlane className="text-yellow-500 text-lg" /> 
                             <b>TELEGRAM:</b> <a href="https://t.me/kkoeung27" className="hover:text-blue-500">https://t.me/kkoeung27</a>
                         </div>
+                        
                     </div>
                 </div>
             </section>

@@ -21,7 +21,7 @@ const Service = () => {
                             <div className="text-xl text-yellow-400"><MdOutlineDeveloperMode /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">WEB DEVELOPMENT</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Create website front end website actively engaged in web creative design.</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Create website front end website actively engaged in web creative design.</p>
                             </div>
                         </div>
 
@@ -29,7 +29,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><MdPhoneAndroid /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">ULTRA RESPONSIVE</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Mobile responsive website on any device with primary use on mobile</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Mobile responsive website on any device with primary use on mobile</p>
                             </div>
                         </div>
 
@@ -37,7 +37,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><MdOutlineDesignServices /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">WEB DESIGN</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Actively creative design and development mobile responsive website on any device.</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Actively creative design and development mobile responsive website on any device.</p>
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><IoCreate /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">CREATIVE IDEAS</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Creative provide new ideas and group meeting to find solutions...</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Creative provide new ideas and group meeting to find solutions...</p>
                             </div>
                         </div>
 
@@ -53,7 +53,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><MdDashboardCustomize /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">EASY CUSTOMIZATION</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Find easy customization and safe ways to get work done fast and be on time...</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Find easy customization and safe ways to get work done fast and be on time...</p>
                             </div>
                         </div>
 
@@ -61,7 +61,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><MdContactSupport /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">SUPPER SUPPORT</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Always active support teammates, provide new approaches and solutions...</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Always active support teammates, provide new approaches and solutions...</p>
                             </div>
                         </div>
 
@@ -69,7 +69,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><TiVendorMicrosoft /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">Microsoft Office</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Install Setup Cofigure microsoft office like word, Excel, powerpoint, access...</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Install Setup Cofigure microsoft office like word, Excel, powerpoint, access...</p>
                             </div>
                         </div>
 
@@ -77,7 +77,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><IoHardwareChipSharp /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">Hardware & Software</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Maintenance Computer have issues and Installing any software use in office...</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Maintenance Computer have issues and Installing any software use in office...</p>
                             </div>
                         </div>
 
@@ -85,7 +85,7 @@ const Service = () => {
                             <div className="text-2xl text-yellow-400"><AiFillPrinter /></div>
                             <div className="tracking-wide">
                                 <span className="text-lg font-semibold">Pinter & Camera</span>
-                                <p className="text-[15px] mt-2 line-clamp-3">Printer and Camera installing software and update drive checking problem to maintenance and supports...</p>
+                                <p className="text-[15px] mt-2 line-clamp-3 text-justify">Printer and Camera installing software and update drive checking problem to maintenance and supports...</p>
                             </div>
                         </div>
                     </div>
