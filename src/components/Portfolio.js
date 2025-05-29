@@ -14,7 +14,7 @@ const Gallery = () => {
         <h1 className="text-2xl font-semibold text-center">MY PROTFOLIO</h1>
         <div className="flex justify-center mt-5">
             <div className="flex gap-5 cursor-pointer tracking-wide">
-                {["all", "website", "design"].map((filter) => (
+                {["all", "website"].map((filter) => (
                     <div key={filter} className={`filter-item ${activeFilter === filter ? "active" : ""}`}
                         onClick={() => handleFilterClick(filter)} >
                         {filter.charAt(0).toUpperCase() + filter.slice(1)}

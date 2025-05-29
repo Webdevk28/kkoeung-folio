@@ -69,7 +69,7 @@ const Leftside = () => {
 
                 {/* View Resume */}
                 <div className='flex justify-center items-center p-4'>
-                    <Link to="/Cv" className='px-6 py-1.5 font-semibold bg-yellow-400 rounded-full text-sm text-gray-800 hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
+                    <Link to="/Cv" className='px-6 py-1.5 bg-yellow-400 rounded-full text-sm text-gray-800 hover:bg-yellow-500 duration-300 hover:scale-x-110'>View Resume</Link>
                 </div>
             </section>
         </>

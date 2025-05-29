@@ -35,7 +35,7 @@ const PopupComponent = forwardRef((props, ref) => {
     }, 200);
   };
 
-  const illustrations = {
+  const valuePopup = {
     frisbee: {
       heading: 'Make it rain 2025',
       Paragraph: 'On May 17–18, 2025, an exciting Frisbee tournament event took place, bringing together 12 competitive teams for an action-packed weekend of high-energy matches and spirited sportsmanship. The event showcased impressive athleticism and teamwork as players from all around came to compete for the championship title. Among the many standout performances, I had the honor of earning the top assist of the tournament, contributing significantly to my team’s success and helping drive our momentum throughout the games. The tournament was a memorable celebration of skill, strategy, and community within the Frisbee sport.',
@@ -58,18 +58,18 @@ const PopupComponent = forwardRef((props, ref) => {
     }
   };
 
-  const currentIllustration = illustrations[popupState.type];
+  const showPopup = valuePopup[popupState.type];
 
   return (
     popupState.isVisible && (
-      <div className="popup z-10" onClick={closePopup}>
-        <div className="popup-content relative" onClick={e => e.stopPropagation()}>
-          <h1 className='font-semibold text-xl py-2 uppercase'>{currentIllustration.heading}</h1>
-          <p className='text-justify sm:text-lg md:text-xl'>{currentIllustration.Paragraph}</p>
-          {/* <div className='object-cover'>{currentIllustration.img}</div> */}
-          <div className='bg-slate-100 absolute right-5 bottom-5 size-6 flex justify-center items-center'>
-            <div className='text-xl md:text-2xl text-red-600 cursor-pointer  border-2 border-gray-400 shadow-md rounded-md ' onClick={closePopup}>< IoClose /></div>
-          </div>
+      <div className="popup z-10 " onClick={closePopup}>
+        <div className="popup-content relative scroll-auto overflow-auto" onClick={e => e.stopPropagation()}>
+          <h1 className='font-semibold text-xl py-2 uppercase'>{showPopup.heading}</h1>
+          <p className='text-justify sm:text-lg md:text-xl '>{showPopup.Paragraph}</p>
+          {/* <div className='object-cover'>{showPopup.img}</div> */}
+        </div>
+        <div className='absolute right-4 bottom-4 bg-slate-100 size-6 flex justify-center items-center'>
+          <div className='text-xl md:text-2xl text-red-600 cursor-pointer  border border-gray-400 shadow-md rounded ' onClick={closePopup}>< IoClose /></div>
         </div>
       </div>
     )
