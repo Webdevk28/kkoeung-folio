@@ -10,6 +10,8 @@ import Progress from "./Progress";
 import Slider from "./Slider"
 import Footer from "./Footer";
 
+import '../App.css'
+
 const Home = () => {
 
     useEffect(() => {
@@ -21,12 +23,14 @@ const Home = () => {
 
     return (
         <>
-            <div class="relative max-w-7xl m-auto overflow-hidden z-40 p-3">
-                <div class="left-side md:h-screen md:fixed w-full md:w-[300px] float-left">
-                   <Leftside />
+            <div className="relative max-w-7xl m-auto overflow-hidden z-40 p-3">
+                <div className="left-side w-full md:w-[300px] md:fixed float-left">
+                    <div className="relative md:h-screen pb-3 overflow-auto scrollbar-hide">
+                        <Leftside />
+                    </div>
                 </div>
 
-                <div class="right-side w-full md:w-[calc(100%-300px)] md:px-4 sm:mt-0 float-right">
+                <div className="right-side w-full md:w-[calc(100%-300px)] md:px-4 sm:mt-0 float-right">
                     <div className="">
                         <Circle />
                         <div className="hidden md:block"><Top /></div>

@@ -38,7 +38,7 @@ const Leftside = () => {
 
     return (
         <>
-            <section className='l-side h-full rounded-lg'>
+            <section className='l-side'>
                 <div className="py-8">
                     <div className='absolute top-5 right-5 md:top-2 md:right-2'><Darkmode /></div>
 
